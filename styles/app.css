@@ -1,21 +1,77 @@
+:root {
+  --h1: 32px;
+}
+
 body {
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 1.5;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.5;
   
-    background-color: #f9f9f9;
-    color: #3d3b3b;
+  background-color: gray;
+  color: #3d3b3b;
   
-    width: 980px;
-    margin: 0 auto;
-  }
+  width: 980px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1em;
+}
   
-  h1 {
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 0;
-  }
-  
-  main > h2 {
-    text-align: center;
-    font-size: 25px;
-  }
+header {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+  height: 100%;
+  width: 100px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:link {
+  color: #fff;
+}
+
+a:visited {
+  color: #fff;
+}
+
+.h1 {
+  font-size: var(--h1);
+  color: black;
+  text-align: center;
+}
+
+.main-page {
+  font-size: 24px;
+  color: gainsboro;
+
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+.attention {
+  text-align: center;
+  font-size: 16px;
+  color: chocolate;
+}
+
+.down {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  width: 100%;
+}
+
+.down {
+  background-color: rgba(0, 0, 0, 0.521);
+}
